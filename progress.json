@@ -7,8 +7,10 @@
   "officialExercisesSubmitted": 0,
   "officialHoursSubmitted": 0,
   "learnerNotesCompleted": false,
+  "confirmedLearning": ["localStorage berbeda dari pesanan server", "Payload validasi berisi productIds", "Perubahan quantity tersimpan lokal", "Validasi tidak memuat ulang dokumen", "JavaScript browser memperbarui DOM setelah respons JSON"],
+  "exercise04": "AI-assisted draft prepared, awaiting learner review; not submitted",
   "localLab": "part0/server.mjs",
   "labPreparedWithAiAssistance": true,
   "productionChanged": false,
-  "nextStep": "Jalankan mini lab, amati Network, lalu isi catatan dengan kata sendiri sebelum mengerjakan diagram resmi."
+  "nextStep": "Review diagram 0.4 dan jelaskan redirect 302 sebelum beralih ke 0.5 dan 0.6."
 }

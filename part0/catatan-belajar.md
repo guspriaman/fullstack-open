@@ -1,6 +1,16 @@
 # Catatan peserta — Part 0
 
-Status: **belum diisi**. Isi dengan kata sendiri setelah menjalankan lab.
+Status: **pemahaman awal dikonfirmasi melalui percakapan; latihan resmi masih menunggu review**.
+
+## Penjelasan dan pengamatan peserta yang sudah dikonfirmasi
+
+- "Belum, karena keranjang tersimpan di localStorage browser, bukan sebagai pesanan di database server."
+- "Di Payload hanya ada productIds, tidak ada harga atau total pembayaran."
+- "Ya, quantity di Local Storage ikut bertambah setelah saya tambah produk."
+- "Hanya muncul request validate, tidak ada dokumen halaman baru."
+- "Browser yang memperbarui DOM melalui JavaScript setelah menerima JSON dari server."
+
+Bagian isian berikut tetap tersedia untuk rangkuman pribadi yang lebih lengkap.
 
 ## Pengamatan Network
 

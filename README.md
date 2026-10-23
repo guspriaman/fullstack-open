@@ -56,7 +56,7 @@ Perubahan aplikasi nantinya dibuat di branch terpisah, memakai data uji lokal, d
 ## Sebelum submission resmi
 
 - Kerjakan dan pahami setiap latihan sendiri; gunakan bantuan untuk penjelasan dan review.
-- Diagram resmi 0.4–0.6 belum dibuat/diserahkan dalam paket awal ini.
+- [Draf diagram 0.4](part0/exercises/0.4-new-note.md) sudah disiapkan dengan bantuan AI dan menunggu review peserta. Diagram 0.5–0.6 belum dibuat; belum ada latihan resmi yang diserahkan.
 - Periksa seluruh latihan pada satu part sebelum mengirim: sistem mengunci penambahan latihan pada part yang sudah diserahkan.
 - Jangan lampirkan repositori privat Brewtica sebagai tugas kursus. Gunakan repositori belajar terpisah.
 
