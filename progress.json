@@ -2,7 +2,7 @@
   "updatedOn": "2026-10-23",
   "githubUser": "guspriaman",
   "course": "Full Stack Open",
-  "currentPart": 1,
+  "currentPart": 2,
   "submissionAccountConnected": true,
   "officialExercisesSubmitted": 20,
   "officialHoursSubmitted": 3,
@@ -69,5 +69,29 @@
     "officialHoursSubmitted": 1.5,
     "submissionReceipt": "part1/submission.json"
   },
-  "nextStep": "Lanjut Part 2 setelah Part 1 tercatat; 20 latihan dan total 3 jam sudah diverifikasi di portal."
+  "nextStep": "Praktik Part 2 melalui part2/README.md dan review ketiga aplikasi. Konfirmasi pemahaman serta waktu belajar Part 2 sebelum submission; hitungan resmi tetap 20 latihan/3 jam.",
+  "part2": {
+    "status": "implementation and technical review complete with disclosed AI assistance; awaiting learner review; not submitted",
+    "exerciseRangePrepared": "2.1–2.20",
+    "officialExercisesSubmitted": 0,
+    "studyHoursConfirmed": false,
+    "learnerReviewConfirmed": false,
+    "buildPassed": true,
+    "browserTestsPassed": 32,
+    "browserTestScenarios": 16,
+    "viewports": [
+      "desktop",
+      "mobile"
+    ],
+    "localUrl": "http://127.0.0.1:4177/",
+    "localApiUrl": "http://127.0.0.1:3001/",
+    "applications": [
+      "courseinfo",
+      "phonebook",
+      "countries",
+      "brewtica-lab"
+    ],
+    "liveCountryWeatherVerified": true,
+    "localPersistenceVerified": true
+  }
 }
