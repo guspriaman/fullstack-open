@@ -10,6 +10,7 @@ Status: **pemahaman awal dikonfirmasi melalui percakapan; latihan resmi masih me
 - "Hanya muncul request validate, tidak ada dokumen halaman baru."
 - "Browser yang memperbarui DOM melalui JavaScript setelah menerima JSON dari server."
 - "Browser mengirim GET ke /exampleapp/notes untuk mengambil halaman tujuan redirect."
+- "Karena HTML hanya menyediakan struktur halaman, sedangkan data.json berisi daftar catatan yang ditampilkan lewat DOM."
 
 Bagian isian berikut tetap tersedia untuk rangkuman pribadi yang lebih lengkap.
 

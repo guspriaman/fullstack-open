@@ -9,9 +9,10 @@
   "learnerNotesCompleted": false,
   "confirmedLearning": ["localStorage berbeda dari pesanan server", "Payload validasi berisi productIds", "Perubahan quantity tersimpan lokal", "Validasi tidak memuat ulang dokumen", "JavaScript browser memperbarui DOM setelah respons JSON"],
   "exercise04": "AI-assisted draft; learner explained redirect correctly; remaining flow under review; not submitted",
-  "exercise05": "AI-assisted initial SPA loading diagram prepared, awaiting learner review; not submitted",
+  "exercise05": "AI-assisted draft; learner explained HTML versus JSON correctly; Network observation under review; not submitted",
+  "exercise06": "AI-assisted SPA new-note diagram prepared, awaiting learner review; not submitted",
   "localLab": "part0/server.mjs",
   "labPreparedWithAiAssistance": true,
   "productionChanged": false,
-  "nextStep": "Pahami kelanjutan 0.4, lalu amati pemuatan SPA dan jelaskan perbedaan HTML dengan JSON pada diagram 0.5."
+  "nextStep": "Pelajari preventDefault dan urutan DOM sebelum POST pada latihan 0.6, lalu amati request dan responsnya."
 }
