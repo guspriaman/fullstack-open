@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Part 0 — Brewtica Web Fundamentals Lab</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">FULL STACK OPEN · PART 0</p>
+      <h1>Dari klik ke server.</h1>
+      <p>Pelajari HTTP, DOM, dan state melalui keranjang sederhana.</p>
+      <p class="notice">Lab mandiri dengan data simulasi. Tidak terhubung ke produksi Brewtica.</p>
+    </header>
+    <div class="grid">
+      <section aria-labelledby="menu-title">
+        <h2 id="menu-title">01 / Menu dari server</h2>
+        <p class="hint">Saat dibuka, browser mengambil JSON melalui GET /api/menu.</p>
+        <div id="menu"><p>Memuat menu…</p></div>
+      </section>
+      <section aria-labelledby="cart-title">
+        <h2 id="cart-title">02 / Keranjang di browser</h2>
+        <p class="hint">Tambah produk memperbarui DOM dan localStorage.</p>
+        <ul id="cart"></ul>
+        <p id="total" class="total" aria-live="polite"></p>
+        <button id="validate" type="button" disabled>Validasi ke server</button>
+        <p id="status" role="status">Belum ada permintaan validasi.</p>
+      </section>
+    </div>
+    <section class="trace" aria-labelledby="trace-title">
+      <h2 id="trace-title">03 / Jejak yang perlu diamati</h2>
+      <ol id="trace" aria-live="polite"></ol>
+      <p class="hint">Buka DevTools → Network untuk melihat request sesungguhnya. Tidak tersedia tombol checkout di lab ini.</p>
+    </section>
+    <footer>
+      <a href="https://fullstackopen.com/en/part0/fundamentals_of_web_apps/" target="_blank" rel="noreferrer">Baca materi resmi Part 0 ↗</a>
+      <p>Pertanyaan pertama: mengapa isi keranjang masih ada setelah halaman dimuat ulang?</p>
+    </footer>
+  </main>
+</body>
+</html>

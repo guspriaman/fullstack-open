@@ -1,0 +1,9 @@
+{
+  "name": "fullstack-open-brewtica-learning",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Guided learning lab for web fundamentals, using simulated Brewtica cart data",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": { "start": "node part0/server.mjs" }
+}
