@@ -4,6 +4,8 @@ Catatan belajar Guspriaman Warasi — Full Stack Developer & Server Security Eng
 
 Tujuan: memahami alasan di balik implementasi web, lalu membuktikannya melalui studi kasus dan pengujian Brewtica. Kursus utama: [Full Stack Open, University of Helsinki](https://fullstackopen.com/en/).
 
+Repositori ini publik atas izin pemilik setelah pemeriksaan berkas dan riwayat Git. Lab berjalan mandiri di localhost dengan data simulasi; penjelasan Brewtica merupakan studi kasus konseptual. Tidak ada sambungan ke API, database, atau repositori privat Brewtica.
+
 ## Status awal — 23 Oktober 2026
 
 - Login GitHub `guspriaman` di sistem submission berhasil.
@@ -20,6 +22,8 @@ npm start
 ```
 
 Buka http://127.0.0.1:4174/. Hentikan server dengan Ctrl+C. Server hanya mendengarkan localhost.
+
+Bacaan dan praktik 0.1–0.3 tersedia di http://127.0.0.1:4174/dasar: HTML, pembanding CSS, serta formulir native dengan endpoint lokal. Halaman tersebut mendampingi bacaan MDN; halaman yang dibuka atau diuji oleh asisten tidak otomatis menjadi konfirmasi bahwa peserta telah menyelesaikan seluruh bacaan.
 
 Pada laptop ini, Node.js 22 tetap dipakai Brewtica. Untuk lab gunakan PowerShell berikut dari folder repositori:
 

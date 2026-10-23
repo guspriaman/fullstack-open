@@ -1,0 +1,22 @@
+:root { color-scheme: dark; background: #101715; color: #eff3ef; font-family: ui-sans-serif, system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 920px; margin: auto; padding: 44px 26px; }
+h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); line-height: 1.1; letter-spacing: -.04em; }
+h2 { font-size: 1.6rem; }
+p, li { line-height: 1.75; }
+.eyebrow { color: #b9dca8; font-size: .8rem; letter-spacing: .12em; font-weight: 700; }
+section { margin: 36px 0; padding: 26px; border: 1px solid #3b4b40; border-radius: 16px; background: #18231e; }
+nav { display: flex; flex-wrap: wrap; gap: 20px; }
+a { color: #c4eab5; text-underline-offset: 4px; }
+pre { padding: 18px; background: #0d1410; border-radius: 10px; overflow: auto; line-height: 1.7; }
+.kartu { color: #eef2ec; background: #223328; padding: 20px; border: 2px solid #77936b; margin: 16px 0; }
+.kartu.alternatif { background: #3b2e21; border-color: #d5b484; padding: 32px; }
+button { padding: 12px 18px; background: #bee2ad; color: #152317; border: 0; border-radius: 8px; font: inherit; cursor: pointer; font-weight: 650; }
+form { max-width: 540px; padding: 22px; border: 1px solid #77936b; border-radius: 10px; }
+label { display: block; font-weight: 650; margin: 16px 0 8px; }
+input, select, textarea { width: 100%; background: #0d1410; color: #eff3ef; padding: 12px; border: 1px solid #77936b; border-radius: 6px; font: inherit; }
+form button { margin-top: 18px; }
+:focus-visible { outline: 3px solid #e6c594; outline-offset: 3px; }
+footer { color: #b3bfb6; }
+@media(max-width: 600px) { main { padding: 26px 16px; } section { padding: 18px; } }

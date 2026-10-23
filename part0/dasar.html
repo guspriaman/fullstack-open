@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Part 0.1–0.3 — HTML, CSS, Formulir</title>
+  <link rel="stylesheet" href="/dasar.css">
+  <script src="/dasar.js" defer></script>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">FULL STACK OPEN · BACAAN 0.1–0.3</p>
+    <h1>Struktur. Tampilan. Input.</h1>
+    <p>Materi pendamping mandiri dengan contoh kedai simulasi. Seluruh praktik berjalan pada server lokal; tidak mengakses proyek atau data produksi.</p>
+    <nav aria-label="Materi"><a href="#html">0.1 HTML</a><a href="#css">0.2 CSS</a><a href="#formulir">0.3 Formulir</a><a href="/">Lab keranjang</a></nav>
+  </header>
+  <section id="html">
+    <p class="eyebrow">0.1 / HTML</p>
+    <h2>Memberi arti pada isi halaman.</h2>
+    <p>Elemen memiliki tag pembuka, isi, dan biasanya tag penutup. Atribut menambahkan informasi. Pada contoh berikut, class memilih kelompok elemen; href menentukan tujuan tautan.</p>
+    <pre><code>&lt;article class="kartu"&gt;
+  &lt;h3&gt;Kopi Demo&lt;/h3&gt;
+  &lt;p&gt;Kopi untuk latihan, bukan produk nyata.&lt;/p&gt;
+  &lt;ul&gt;&lt;li&gt;Harga simulasi Rp25.000&lt;/li&gt;&lt;/ul&gt;
+  &lt;a href="#formulir"&gt;Coba formulir&lt;/a&gt;
+&lt;/article&gt;</code></pre>
+    <p>Susun elemen bersarang dengan penutupan yang sesuai. Gunakan heading berurutan, paragraf untuk uraian, ul/ol untuk daftar, serta a untuk tautan. Gambar memakai img dengan src dan alt yang menjelaskan maknanya; alt kosong cocok untuk gambar dekoratif.</p>
+    <p>Dokumen dimulai dengan doctype html. Elemen html membungkus head (metadata, title, CSS) dan body (isi yang tampil). meta charset mengatur encoding; viewport membantu tampilan pada ponsel.</p>
+    <p><strong>Praktik:</strong> di DevTools → Elements, temukan article dan h3 pada kartu di bawah. Mengubah teks h3 di Elements mengubah tampilan sementara, bukan file sumber.</p>
+    <p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" target="_blank" rel="noreferrer">Bacaan MDN 0.1 ↗</a></p>
+  </section>
+  <section id="css">
+    <p class="eyebrow">0.2 / CSS</p>
+    <h2>Mengatur tampilan elemen.</h2>
+    <pre><code>.kartu {
+  color: #eef2ec;
+  background: #223328;
+  padding: 20px;
+  border: 2px solid #77936b;
+  margin: 16px 0;
+}</code></pre>
+    <p>.kartu adalah selector class. Setiap deklarasi memiliki property dan value. Selector h3 memilih elemen; #css memilih id tertentu. Aturan yang berlaku ditentukan cascade dan specificity, bukan semata-mata urutan baris.</p>
+    <article class="kartu" id="kartu-demo"><h3>Kopi Demo</h3><p>Kartu contoh untuk melihat box model.</p><ul><li>Harga simulasi Rp25.000</li></ul><a href="#formulir">Coba formulir</a></article>
+    <button type="button" id="ubah-tampilan" aria-pressed="false">Bandingkan tampilan kartu</button>
+    <p>Box model tersusun dari content, padding, border, lalu margin. Padding memberi jarak ke tepi bagian dalam; margin memisahkan elemen di luar border. Font, warna, lebar, dan layout juga diatur melalui CSS.</p>
+    <p><strong>Praktik:</strong> klik tombol pembanding, lalu periksa kartu di Elements → Styles/Computed. Hanya class dan tampilannya yang berubah; nama serta harga tetap sama. Cari padding dan margin pada box model.</p>
+    <p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content" target="_blank" rel="noreferrer">Bacaan MDN 0.2 ↗</a></p>
+  </section>
+  <section id="formulir">
+    <p class="eyebrow">0.3 / FORMULIR</p>
+    <h2>Mengirim input dari browser.</h2>
+    <pre><code>&lt;form action="/latihan-form" method="post"&gt;
+  &lt;label for="jumlah"&gt;Jumlah&lt;/label&gt;
+  &lt;input id="jumlah" name="quantity" type="number"
+         min="1" max="5" value="1" required&gt;
+  &lt;button type="submit"&gt;Kirim simulasi&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+    <p>action menentukan alamat tujuan; method menentukan metode HTTP. name menjadi kunci data yang dikirim. label for menghubungkan label dengan id input. Pilih type sesuai data, misalnya email atau number. textarea menerima teks beberapa baris; select menyediakan pilihan.</p>
+    <form action="/latihan-form" method="post">
+      <label for="produk">Produk simulasi</label>
+      <select id="produk" name="product" required><option value="">Pilih produk</option><option value="coffee-demo">Kopi Demo</option><option value="tea-demo">Teh Demo</option></select>
+      <label for="jumlah">Jumlah (1–5)</label>
+      <input id="jumlah" name="quantity" type="number" min="1" max="5" value="1" required>
+      <label for="catatan">Catatan latihan (opsional)</label>
+      <textarea id="catatan" name="note" maxlength="300" rows="3" placeholder="Gunakan teks simulasi, tanpa data pribadi"></textarea>
+      <button type="submit">Kirim simulasi</button>
+    </form>
+    <p><strong>Praktik:</strong> klik Kirim tanpa memilih produk. Browser menahan input yang belum valid. Kemudian pilih produk, isi jumlah 2, tulis “latihan formulir”, dan kirim sambil membuka Network → All.</p>
+    <p>Temukan POST /latihan-form dan Payload → Form Data. Browser mengirim pasangan name/value menggunakan application/x-www-form-urlencoded. Server membalas halaman HTML status 200. Tidak ada database, pesanan, atau pembayaran yang dibuat.</p>
+    <p>required membantu pengguna, tetapi server tetap harus memvalidasi karena request dapat dibuat tanpa formulir. Tombol type="button" menjalankan interaksi biasa; type="submit" mengirim formulir. Contoh ini memakai submit bawaan; preventDefault pada SPA 0.6 menggantikan alur tersebut dengan JavaScript.</p>
+    <p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form" target="_blank" rel="noreferrer">Bacaan MDN 0.3 ↗</a></p>
+  </section>
+  <footer><p>Materi dan demo disiapkan dengan bantuan AI. Membuka halaman ini tidak otomatis menyatakan bacaan selesai atau mengirim tugas ke portal.</p><a href="/">Kembali ke keranjang</a></footer>
+</main>
+</body>
+</html>

@@ -10,6 +10,9 @@ const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/app.js', ['app.js', 'text/javascript; charset=utf-8']],
   ['/style.css', ['style.css', 'text/css; charset=utf-8']],
+  ['/dasar', ['dasar.html', 'text/html; charset=utf-8']],
+  ['/dasar.css', ['dasar.css', 'text/css; charset=utf-8']],
+  ['/dasar.js', ['dasar.js', 'text/javascript; charset=utf-8']],
 ]);
 
 function json(res, status, body) {
@@ -35,6 +38,32 @@ const server = createServer(async (req, res) => {
       });
       return res.end(body);
     } catch { return json(res, 500, { error: 'Berkas lab gagal dibaca.' }); }
+  }
+  if (req.method === 'POST' && path === '/latihan-form') {
+    if (req.headers['content-type']?.split(';')[0] !== 'application/x-www-form-urlencoded') {
+      return json(res, 415, { error: 'Gunakan formulir HTML bawaan.' });
+    }
+    let raw = '';
+    try {
+      for await (const chunk of req) {
+        raw += chunk;
+        if (raw.length > 4096) return json(res, 413, { error: 'Formulir terlalu besar.' });
+      }
+      const fields = new URLSearchParams(raw);
+      const product = fields.get('product');
+      const quantity = Number(fields.get('quantity'));
+      const note = fields.get('note') || '';
+      if (!menu.some(item => item.id === product) || !Number.isInteger(quantity) || quantity < 1 || quantity > 5 || note.length > 300) {
+        return json(res, 400, { error: 'Produk, jumlah, atau catatan tidak valid.' });
+      }
+      const escaped = JSON.stringify({ product, quantity, note }, null, 2)
+        .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+      res.writeHead(200, {
+        'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store',
+        'Content-Security-Policy': "default-src 'self'; object-src 'none'; frame-ancestors 'none'",
+      });
+      return res.end(`<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hasil formulir simulasi</title><link rel="stylesheet" href="/dasar.css"><main><p class="eyebrow">LATIHAN 0.3</p><h1>Formulir diterima.</h1><p>Server membalas HTML dengan status 200. Tidak ada pesanan atau data yang disimpan.</p><pre>${escaped}</pre><p>Di Network, periksa POST /latihan-form dan Payload → Form Data. JSON yang ditampilkan di atas hanya format ringkasan respons; kiriman formulir aslinya berupa pasangan name/value yang di-URL-encode.</p><p>Contoh ini langsung membalas HTML. Contoh kursus 0.4 membalas redirect 302.</p><a href="/dasar#formulir">Kembali ke materi formulir</a> · <a href="/">Buka lab keranjang</a></main></html>`);
+    } catch { return json(res, 400, { error: 'Formulir tidak dapat dibaca.' }); }
   }
   if (req.method === 'GET' && path === '/api/menu') return json(res, 200, menu);
   if (req.method === 'POST' && path === '/api/cart/validate') {

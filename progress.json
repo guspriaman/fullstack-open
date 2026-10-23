@@ -13,9 +13,18 @@
   "exercise06": "Technical review complete against official source; learner explained DOM-before-POST and failure uncertainty; not submitted",
   "referenceCommit": "3a61b89f0b4ec3b8db9de97025564587f9e6ede0",
   "reviewComplete": true,
+  "repositoryVisibility": "public",
+  "publicReadAccessForInstructor": true,
+  "instructorInvitation": { "login": "mattiluukkainen", "permission": "write", "status": "pending", "id": 339250323 },
+  "readings01to03": {
+    "companionPrepared": true,
+    "localUrl": "http://127.0.0.1:4174/dasar",
+    "assistantDemoVerified": true,
+    "learnerFullReadingConfirmed": false
+  },
   "submissionPrerequisites": {
     "readings01to03Confirmed": false,
-    "instructorRepositoryAccess": false,
+    "instructorRepositoryAccess": true,
     "academicIntegrityAcknowledgedInPortal": false,
     "studyHoursConfirmed": false
   },
