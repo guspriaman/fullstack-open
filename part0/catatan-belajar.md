@@ -9,6 +9,7 @@ Status: **pemahaman awal dikonfirmasi melalui percakapan; latihan resmi masih me
 - "Ya, quantity di Local Storage ikut bertambah setelah saya tambah produk."
 - "Hanya muncul request validate, tidak ada dokumen halaman baru."
 - "Browser yang memperbarui DOM melalui JavaScript setelah menerima JSON dari server."
+- "Browser mengirim GET ke /exampleapp/notes untuk mengambil halaman tujuan redirect."
 
 Bagian isian berikut tetap tersedia untuk rangkuman pribadi yang lebih lengkap.
 

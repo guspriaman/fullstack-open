@@ -8,9 +8,10 @@
   "officialHoursSubmitted": 0,
   "learnerNotesCompleted": false,
   "confirmedLearning": ["localStorage berbeda dari pesanan server", "Payload validasi berisi productIds", "Perubahan quantity tersimpan lokal", "Validasi tidak memuat ulang dokumen", "JavaScript browser memperbarui DOM setelah respons JSON"],
-  "exercise04": "AI-assisted draft prepared, awaiting learner review; not submitted",
+  "exercise04": "AI-assisted draft; learner explained redirect correctly; remaining flow under review; not submitted",
+  "exercise05": "AI-assisted initial SPA loading diagram prepared, awaiting learner review; not submitted",
   "localLab": "part0/server.mjs",
   "labPreparedWithAiAssistance": true,
   "productionChanged": false,
-  "nextStep": "Review diagram 0.4 dan jelaskan redirect 302 sebelum beralih ke 0.5 dan 0.6."
+  "nextStep": "Pahami kelanjutan 0.4, lalu amati pemuatan SPA dan jelaskan perbedaan HTML dengan JSON pada diagram 0.5."
 }
