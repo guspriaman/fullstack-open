@@ -1,6 +1,6 @@
 # Part 1 — React, dari konsep ke praktik
 
-Implementasi pendamping disiapkan dengan bantuan AI. Source mencakup hasil akhir kelompok latihan 1.1–1.14 dan lab kedai tambahan. **Belum disubmit sebagai Part 1; pemahaman peserta dan waktu belajar Part 1 belum dikonfirmasi.** Part 0 tetap tercatat 6 latihan/1,5 jam.
+Implementasi pendamping disiapkan dengan bantuan AI. Source mencakup hasil akhir kelompok latihan 1.1–1.14 dan lab kedai tambahan. **Part 1 berhasil disubmit: 14 latihan, 1,5 jam khusus Part 1**, setelah peserta mengonfirmasi review dan pemahaman. Portal mencatat total Part 0–1 sebanyak 20 latihan/3 jam. Bukti: [submission.json](submission.json).
 
 ## Jalankan
 
@@ -99,7 +99,7 @@ npm test
 
 Hasil 23 Oktober 2026: build berhasil; **14 pengujian berhasil** (7 skenario × desktop/mobile). Pengujian memeriksa jumlah, statistik kosong/negatif/campuran, vote independen dan pemenang, batas stok, reload, ketiadaan request API dari keranjang, layout, dan error browser. Pengujian bukan konfirmasi pemahaman peserta.
 
-Sebelum submission: baca seluruh materi Part 1 termasuk JavaScript dan debugging, telusuri source tiap aplikasi, pahami callback serta pembaruan immutable, review implementasi dengan kata sendiri, lalu laporkan waktu belajar sebenarnya. Angka 1,5 jam Part 0 tidak digunakan ulang untuk Part 1. Belum ada checkbox portal Part 1 yang ditandai.
+Peserta telah mengonfirmasi review dan pemahaman Part 1 serta waktu belajar khusus Part 1 sebesar 1,5 jam. Latihan 1–14 ditandai dan pengiriman diverifikasi pada tabel portal tanggal 23 Oktober 2026. Bantuan AI diungkapkan dalam komentar submission. Waktu Part 0 tidak dihitung ulang.
 
 ## Sumber
 

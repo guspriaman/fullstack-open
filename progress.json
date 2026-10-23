@@ -4,14 +4,20 @@
   "course": "Full Stack Open",
   "currentPart": 1,
   "submissionAccountConnected": true,
-  "officialExercisesSubmitted": 6,
-  "officialHoursSubmitted": 1.5,
+  "officialExercisesSubmitted": 20,
+  "officialHoursSubmitted": 3,
   "submissionStatus": "verified submitted",
-  "lastSubmittedPart": 0,
-  "nextRecommendedPart": 1,
-  "submissionReceipt": "part0/submission.json",
+  "lastSubmittedPart": 1,
+  "nextRecommendedPart": 2,
+  "submissionReceipt": "part1/submission.json",
   "learnerNotesCompleted": false,
-  "confirmedLearning": ["localStorage berbeda dari pesanan server", "Payload validasi berisi productIds", "Perubahan quantity tersimpan lokal", "Validasi tidak memuat ulang dokumen", "JavaScript browser memperbarui DOM setelah respons JSON"],
+  "confirmedLearning": [
+    "localStorage berbeda dari pesanan server",
+    "Payload validasi berisi productIds",
+    "Perubahan quantity tersimpan lokal",
+    "Validasi tidak memuat ulang dokumen",
+    "JavaScript browser memperbarui DOM setelah respons JSON"
+  ],
   "exercise04": "Reviewed with disclosed AI assistance and submitted in Part 0",
   "exercise05": "Reviewed with disclosed AI assistance and submitted in Part 0",
   "exercise06": "Reviewed with disclosed AI assistance and submitted in Part 0",
@@ -19,7 +25,12 @@
   "reviewComplete": true,
   "repositoryVisibility": "public",
   "publicReadAccessForInstructor": true,
-  "instructorInvitation": { "login": "mattiluukkainen", "permission": "write", "status": "pending", "id": 339250323 },
+  "instructorInvitation": {
+    "login": "mattiluukkainen",
+    "permission": "write",
+    "status": "pending",
+    "id": 339250323
+  },
   "readings01to03": {
     "companionPrepared": true,
     "localUrl": "http://127.0.0.1:4174/dasar",
@@ -36,17 +47,27 @@
   "labPreparedWithAiAssistance": true,
   "productionChanged": false,
   "part1": {
-    "status": "implementation prepared with disclosed AI assistance; not submitted",
+    "status": "verified submitted with disclosed AI tutoring assistance",
     "exerciseRangePrepared": "1.1–1.14",
-    "officialExercisesSubmitted": 0,
-    "studyHoursConfirmed": false,
-    "learnerReviewConfirmed": false,
+    "officialExercisesSubmitted": 14,
+    "studyHoursConfirmed": true,
+    "learnerReviewConfirmed": true,
     "buildPassed": true,
     "browserTestsPassed": 14,
     "browserTestScenarios": 7,
-    "viewports": ["desktop", "mobile"],
+    "viewports": [
+      "desktop",
+      "mobile"
+    ],
     "localUrl": "http://127.0.0.1:4175/",
-    "applications": ["courseinfo", "unicafe", "anecdotes", "brewtica-lab"]
+    "applications": [
+      "courseinfo",
+      "unicafe",
+      "anecdotes",
+      "brewtica-lab"
+    ],
+    "officialHoursSubmitted": 1.5,
+    "submissionReceipt": "part1/submission.json"
   },
-  "nextStep": "Praktik dan review Part 1 melalui part1/README.md sebelum menandai latihan resmi atau mencatat waktu belajar Part 1."
+  "nextStep": "Lanjut Part 2 setelah Part 1 tercatat; 20 latihan dan total 3 jam sudah diverifikasi di portal."
 }

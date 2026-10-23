@@ -27,3 +27,7 @@ Build sebelumnya berhasil dan source aplikasi tidak berubah sejak 14 pengujian d
 - Status setelah Send harus diperiksa pada tabel portal sebelum dinyatakan berhasil.
 
 Sumber: [komponen](https://fullstackopen.com/en/part1/introduction_to_react/), [struktur data](https://fullstackopen.com/en/part1/java_script/), [state dan latihan lanjutan](https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps/).
+
+## Hasil submission
+
+Peserta mengonfirmasi: “Sudah review dan memahami Part 1, total 1.5 jam”. Pada 23 Oktober 2026, portal menampilkan “exercises for part 1 submitted”, baris Part 1 dengan 14 latihan/1,5 jam, dan total Part 0–1 sebanyak 20 latihan/3 jam. Tombol berikutnya adalah Create submission for part 2. Komentar submission mengungkapkan pendampingan AI. Bukti terstruktur: [submission.json](submission.json). Ini pencatatan latihan, bukan sertifikat akhir kursus.
