@@ -8,11 +8,19 @@
   "officialHoursSubmitted": 0,
   "learnerNotesCompleted": false,
   "confirmedLearning": ["localStorage berbeda dari pesanan server", "Payload validasi berisi productIds", "Perubahan quantity tersimpan lokal", "Validasi tidak memuat ulang dokumen", "JavaScript browser memperbarui DOM setelah respons JSON"],
-  "exercise04": "AI-assisted draft; learner explained redirect correctly; remaining flow under review; not submitted",
-  "exercise05": "AI-assisted draft; learner explained HTML versus JSON correctly; Network observation under review; not submitted",
-  "exercise06": "AI-assisted SPA new-note diagram prepared, awaiting learner review; not submitted",
+  "exercise04": "Technical review complete against official source; learner explained redirect; not submitted",
+  "exercise05": "Technical review complete against official source; learner explained HTML versus JSON; not submitted",
+  "exercise06": "Technical review complete against official source; learner explained DOM-before-POST and failure uncertainty; not submitted",
+  "referenceCommit": "3a61b89f0b4ec3b8db9de97025564587f9e6ede0",
+  "reviewComplete": true,
+  "submissionPrerequisites": {
+    "readings01to03Confirmed": false,
+    "instructorRepositoryAccess": false,
+    "academicIntegrityAcknowledgedInPortal": false,
+    "studyHoursConfirmed": false
+  },
   "localLab": "part0/server.mjs",
   "labPreparedWithAiAssistance": true,
   "productionChanged": false,
-  "nextStep": "Pelajari preventDefault dan urutan DOM sebelum POST pada latihan 0.6, lalu amati request dan responsnya."
+  "nextStep": "Penuhi prasyarat submission pada part0/README.md; jangan menandai submission resmi selesai sebelum portal mengonfirmasinya."
 }

@@ -11,6 +11,7 @@ Status: **pemahaman awal dikonfirmasi melalui percakapan; latihan resmi masih me
 - "Browser yang memperbarui DOM melalui JavaScript setelah menerima JSON dari server."
 - "Browser mengirim GET ke /exampleapp/notes untuk mengambil halaman tujuan redirect."
 - "Karena HTML hanya menyediakan struktur halaman, sedangkan data.json berisi daftar catatan yang ditampilkan lewat DOM."
+- "Belum tentu, karena DOM sudah diperbarui sebelum POST dikirim. Kalau POST gagal, server belum tentu menerima catatan."
 
 Bagian isian berikut tetap tersedia untuk rangkuman pribadi yang lebih lengkap.
 
