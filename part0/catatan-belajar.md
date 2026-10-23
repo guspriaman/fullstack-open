@@ -1,6 +1,6 @@
 # Catatan peserta — Part 0
 
-Status: **pemahaman awal dikonfirmasi melalui percakapan; latihan resmi masih menunggu review**.
+Status: **pemahaman inti dikonfirmasi melalui percakapan; Part 0 disubmit dengan 6 latihan dan 1,5 jam**. Isian pribadi opsional di bawah dapat terus dilengkapi.
 
 ## Penjelasan dan pengamatan peserta yang sudah dikonfirmasi
 
@@ -45,10 +45,10 @@ Tambahkan penjelasan stok simulasi pada kartu produk. Sebelum mengubah kode, tun
 
 ## Latihan resmi kursus
 
-- [ ] 0.1–0.3: bacaan dan percobaan HTML, CSS, formulir sesuai materi resmi
-- [ ] 0.4: diagram alur aplikasi catatan tradisional, dikerjakan peserta
-- [ ] 0.5: diagram pemuatan aplikasi catatan SPA, dikerjakan peserta
-- [ ] 0.6: diagram penambahan catatan SPA, dikerjakan peserta
-- [ ] Review seluruh Part 0 sebelum submission
+- [x] 0.1–0.3: penyelesaian bacaan dikonfirmasi peserta
+- [x] 0.4: diagram aplikasi catatan tradisional, dibuat melalui pendampingan AI dan direview bersama
+- [x] 0.5: diagram pemuatan SPA, dibuat melalui pendampingan AI dan direview bersama
+- [x] 0.6: diagram penambahan catatan SPA, dibuat melalui pendampingan AI dan direview bersama
+- [x] Review dan submission Part 0 selesai; hasil portal telah diverifikasi
 
 Mini lab Brewtica ini bukan jawaban otomatis untuk diagram aplikasi catatan pada kursus.

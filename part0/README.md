@@ -1,6 +1,6 @@
 # Part 0 — Paket review akhir
 
-Review teknis selesai pada 23 Oktober 2026. Hasil dibuat melalui pendampingan AI dan pembahasan dengan peserta; bantuan tersebut dinyatakan terbuka dalam berkas latihan. Belum ada submission resmi.
+Review teknis dan submission selesai pada 23 Oktober 2026. Portal menampilkan Part 0 dengan **6 latihan dan 1,5 jam**, serta tombol submission Part 1. Hasil dibuat melalui pendampingan AI dan pembahasan dengan peserta; bantuan tersebut dinyatakan terbuka dalam berkas latihan dan komentar submission. [Receipt pengamatan portal](submission.json).
 
 | Latihan | Skenario | Hasil review |
 |---|---|---|
@@ -18,15 +18,16 @@ Kode referensi yang diperiksa: [example_app, commit 3a61b89](https://github.com/
 - [x] Repositori terpisah dan kini publik atas izin pemilik; tidak berisi kode privat atau data produksi Brewtica.
 - [x] Materi pendamping 0.1 HTML, 0.2 CSS, dan 0.3 formulir disiapkan di [halaman dasar](dasar.html), termasuk tautan bacaan resmi MDN.
 - [x] Demo asisten diuji: perubahan class CSS, required pada produk, POST formulir valid, penolakan input salah, dan API keranjang tetap berjalan.
-- [ ] Penyelesaian bacaan penuh oleh peserta belum dikonfirmasi; tidak dicatat otomatis dari pengujian asisten.
+- [x] Peserta mengonfirmasi telah menyelesaikan bacaan MDN 0.1–0.3.
 - [x] Pengajar dapat membaca repositori publik tanpa menunggu undangan.
 - [x] Undangan collaborator untuk mattiluukkainen dikirim dengan Write (peran yang tersedia pada repositori pribadi); statusnya masih pending, belum menjadi akses tulis aktif.
-- [ ] Pernyataan integritas akademik: belum disetujui peserta pada portal.
-- [ ] Jumlah latihan dan waktu belajar: hanya laporkan yang benar-benar selesai dan waktu yang dapat dipertanggungjawabkan. Jangan mengisi angka perkiraan sebagai data peserta tanpa dasar.
+- [x] Peserta mengonfirmasi persetujuan integritas akademik; persetujuan dicatat pada portal.
+- [x] Waktu belajar 1,5 jam dikonfirmasi peserta; latihan 1–6 dipilih dan dikirim.
+- [x] Hasil portal diverifikasi: satu baris Part 0, total 6 latihan dan 1,5 jam.
 
 Alamat folder latihan: https://github.com/guspriaman/fullstack-open/tree/codex/fullstack-open-foundations/part0/exercises
 
-Portal telah diperiksa sampai pernyataan integritas; kolom setelahnya belum dibuka. Review ini tidak mengklaim seluruh persyaratan portal sudah terpenuhi. [Ketentuan submission resmi](https://fullstackopen.com/en/part0/general_info/#submitting-exercises) menyatakan part yang sudah dikirim tidak dapat ditambah latihan yang terlewat.
+Komentar submission menyebut penggunaan AI untuk pendampingan dan review secara terbuka. Pencatatan submission tidak menyatakan seluruh kursus selesai atau sertifikat sudah diperoleh. [Ketentuan submission resmi](https://fullstackopen.com/en/part0/general_info/#submitting-exercises) menyatakan part yang sudah dikirim tidak dapat ditambah latihan yang terlewat.
 
 Tidak ada perubahan pada produksi Brewtica dan tidak ada data yang dihapus. Catatan checklist pengamatan yang belum dikonfirmasi tetap dibiarkan terbuka.
 

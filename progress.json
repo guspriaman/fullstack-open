@@ -4,13 +4,17 @@
   "course": "Full Stack Open",
   "currentPart": 0,
   "submissionAccountConnected": true,
-  "officialExercisesSubmitted": 0,
-  "officialHoursSubmitted": 0,
+  "officialExercisesSubmitted": 6,
+  "officialHoursSubmitted": 1.5,
+  "submissionStatus": "verified submitted",
+  "lastSubmittedPart": 0,
+  "nextRecommendedPart": 1,
+  "submissionReceipt": "part0/submission.json",
   "learnerNotesCompleted": false,
   "confirmedLearning": ["localStorage berbeda dari pesanan server", "Payload validasi berisi productIds", "Perubahan quantity tersimpan lokal", "Validasi tidak memuat ulang dokumen", "JavaScript browser memperbarui DOM setelah respons JSON"],
-  "exercise04": "Technical review complete against official source; learner explained redirect; not submitted",
-  "exercise05": "Technical review complete against official source; learner explained HTML versus JSON; not submitted",
-  "exercise06": "Technical review complete against official source; learner explained DOM-before-POST and failure uncertainty; not submitted",
+  "exercise04": "Reviewed with disclosed AI assistance and submitted in Part 0",
+  "exercise05": "Reviewed with disclosed AI assistance and submitted in Part 0",
+  "exercise06": "Reviewed with disclosed AI assistance and submitted in Part 0",
   "referenceCommit": "3a61b89f0b4ec3b8db9de97025564587f9e6ede0",
   "reviewComplete": true,
   "repositoryVisibility": "public",
@@ -20,16 +24,16 @@
     "companionPrepared": true,
     "localUrl": "http://127.0.0.1:4174/dasar",
     "assistantDemoVerified": true,
-    "learnerFullReadingConfirmed": false
+    "learnerFullReadingConfirmed": true
   },
   "submissionPrerequisites": {
-    "readings01to03Confirmed": false,
+    "readings01to03Confirmed": true,
     "instructorRepositoryAccess": true,
-    "academicIntegrityAcknowledgedInPortal": false,
-    "studyHoursConfirmed": false
+    "academicIntegrityAcknowledgedInPortal": true,
+    "studyHoursConfirmed": true
   },
   "localLab": "part0/server.mjs",
   "labPreparedWithAiAssistance": true,
   "productionChanged": false,
-  "nextStep": "Penuhi prasyarat submission pada part0/README.md; jangan menandai submission resmi selesai sebelum portal mengonfirmasinya."
+  "nextStep": "Mulai Part 1: React, komponen, props, dan state; latihan resmi dikerjakan berurutan dengan penerapan tambahan pada lab mandiri."
 }

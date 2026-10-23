@@ -6,11 +6,12 @@ Tujuan: memahami alasan di balik implementasi web, lalu membuktikannya melalui s
 
 Repositori ini publik atas izin pemilik setelah pemeriksaan berkas dan riwayat Git. Lab berjalan mandiri di localhost dengan data simulasi; penjelasan Brewtica merupakan studi kasus konseptual. Tidak ada sambungan ke API, database, atau repositori privat Brewtica.
 
-## Status awal — 23 Oktober 2026
+## Status — 23 Oktober 2026
 
 - Login GitHub `guspriaman` di sistem submission berhasil.
-- Materi pertama: Part 0, Fundamentals of Web Apps.
-- **Submission resmi: 0.** Dokumen dan lab ini adalah pendamping belajar yang disiapkan dengan bantuan AI, bukan pernyataan bahwa latihan resmi sudah dikuasai atau diserahkan.
+- **Part 0 berhasil disubmit: 6 latihan, 1,5 jam.** Angka waktu dan penyelesaian bacaan dikonfirmasi langsung oleh peserta, lalu diverifikasi pada portal.
+- Diagram dan lab disiapkan melalui pendampingan AI. Bantuan tersebut diungkapkan pada berkas dan komentar submission.
+- Portal kini menawarkan submission Part 1. Bukti pencatatan tersedia pada [receipt Part 0](part0/submission.json); pencatatan ini bukan sertifikat atau konfirmasi nilai akhir kursus.
 - Repositori ini tidak berisi kode privat, kredensial, data pelanggan, maupun database Brewtica.
 
 ## Jalankan lab pertama
@@ -57,10 +58,10 @@ Latihan resmi tetap dikerjakan sesuai instruksi kursus; proyek Next.js Brewtica 
 
 Perubahan aplikasi nantinya dibuat di branch terpisah, memakai data uji lokal, diperiksa sebelum merge/deploy. Tidak ada perubahan produksi dalam sesi pembukaan ini.
 
-## Sebelum submission resmi
+## Submission dan kelanjutan
 
 - Kerjakan dan pahami setiap latihan sendiri; gunakan bantuan untuk penjelasan dan review.
-- Review teknis diagram [0.4](part0/exercises/0.4-new-note.md), [0.5](part0/exercises/0.5-spa-load.md), dan [0.6](part0/exercises/0.6-spa-new-note.md) selesai dengan bantuan AI. Lihat [hasil review dan prasyarat submission](part0/README.md). Belum ada latihan resmi yang diserahkan.
+- Review teknis diagram [0.4](part0/exercises/0.4-new-note.md), [0.5](part0/exercises/0.5-spa-load.md), dan [0.6](part0/exercises/0.6-spa-new-note.md) selesai dengan bantuan AI dan disertakan pada submission Part 0. Lihat [hasil review dan status submission](part0/README.md).
 - Periksa seluruh latihan pada satu part sebelum mengirim: sistem mengunci penambahan latihan pada part yang sudah diserahkan.
 - Jangan lampirkan repositori privat Brewtica sebagai tugas kursus. Gunakan repositori belajar terpisah.
 
