@@ -12,6 +12,7 @@ Repositori ini publik atas izin pemilik setelah pemeriksaan berkas dan riwayat G
 - **Part 0 berhasil disubmit: 6 latihan, 1,5 jam.** Angka waktu dan penyelesaian bacaan dikonfirmasi langsung oleh peserta, lalu diverifikasi pada portal.
 - Diagram dan lab disiapkan melalui pendampingan AI. Bantuan tersebut diungkapkan pada berkas dan komentar submission.
 - Portal kini menawarkan submission Part 1. Bukti pencatatan tersedia pada [receipt Part 0](part0/submission.json); pencatatan ini bukan sertifikat atau konfirmasi nilai akhir kursus.
+- [Part 1 React](part1/README.md): lab kedai dan implementasi 1.1–1.14 tersedia. Build dan 14 pengujian desktop/mobile berhasil; Part 1 belum disubmit dan menunggu review pemahaman peserta.
 - Repositori ini tidak berisi kode privat, kredensial, data pelanggan, maupun database Brewtica.
 
 ## Jalankan lab pertama

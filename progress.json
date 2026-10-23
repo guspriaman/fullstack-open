@@ -2,7 +2,7 @@
   "updatedOn": "2026-10-23",
   "githubUser": "guspriaman",
   "course": "Full Stack Open",
-  "currentPart": 0,
+  "currentPart": 1,
   "submissionAccountConnected": true,
   "officialExercisesSubmitted": 6,
   "officialHoursSubmitted": 1.5,
@@ -35,5 +35,18 @@
   "localLab": "part0/server.mjs",
   "labPreparedWithAiAssistance": true,
   "productionChanged": false,
-  "nextStep": "Mulai Part 1: React, komponen, props, dan state; latihan resmi dikerjakan berurutan dengan penerapan tambahan pada lab mandiri."
+  "part1": {
+    "status": "implementation prepared with disclosed AI assistance; not submitted",
+    "exerciseRangePrepared": "1.1–1.14",
+    "officialExercisesSubmitted": 0,
+    "studyHoursConfirmed": false,
+    "learnerReviewConfirmed": false,
+    "buildPassed": true,
+    "browserTestsPassed": 14,
+    "browserTestScenarios": 7,
+    "viewports": ["desktop", "mobile"],
+    "localUrl": "http://127.0.0.1:4175/",
+    "applications": ["courseinfo", "unicafe", "anecdotes", "brewtica-lab"]
+  },
+  "nextStep": "Praktik dan review Part 1 melalui part1/README.md sebelum menandai latihan resmi atau mencatat waktu belajar Part 1."
 }
